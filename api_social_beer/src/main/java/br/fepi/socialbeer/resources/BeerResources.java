@@ -11,7 +11,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.fepi.socialbeer.domain.Beer;
+import br.fepi.socialbeer.domain.Comentario;
 import br.fepi.socialbeer.repository.BeerRepository;
+import br.fepi.socialbeer.repository.ComentariosRepository;
 
 @RestController
 @RequestMapping(value = "/beer")
@@ -19,6 +21,9 @@ public class BeerResources {
 	
 	@Autowired
 	private BeerRepository beerRepository;
+	
+	@Autowired
+	private ComentariosRepository comentariosRepository;
 	
 	@RequestMapping(method = RequestMethod.GET)
 	public List<Beer> listar() {
@@ -52,7 +57,7 @@ public class BeerResources {
 	{
 		Beer beer = new Beer();
 		beer.setId(beerId);
-		comentario.setLivro(beer);
+		comentario.setBeer(beer);
 		comentariosRepository.save(comentario);
 		
 	}

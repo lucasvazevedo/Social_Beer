@@ -29,46 +29,46 @@ INSERT INTO Beer (fabricante, familia, nome, graduacao, ibu)
 VALUES ('Stella Artois', 'Lager', 'Stella Artois', '5,2%', 30);
  
 INSERT INTO Beer (fabricante, familia, nome, graduacao, ibu) 
-VALUES (‘Chimay’, ‘Ale’, ‘Chimay Red’, ‘7%’, 19);
+VALUES ('Chimay', 'Ale', 'Chimay Red', '7%', 19);
  
 INSERT INTO Beer (fabricante, familia, nome, graduacao, ibu) 
-VALUES (‘Hoegaarden’, ‘Ale’, ‘Hoegaarden Wit’, ‘4,9%’, 15);
+VALUES ('Hoegaarden', 'Ale', 'Hoegaarden Wit', '4,9%', 15);
  
 INSERT INTO Beer (fabricante, familia, nome, graduacao, ibu) 
-VALUES (‘Samuel Adams’, ‘Lager’, ‘Boston Lager’, ‘5%’, 30);
+VALUES ('Samuel Adams', 'Lager', 'Boston Lager', '5%', 30);
  
 INSERT INTO Beer (fabricante, familia, nome, graduacao, ibu) 
-VALUES (‘Sierra Nevada’, ‘Ale’, ‘Pale Ale’, ‘5,6%’, 38);
+VALUES ('Sierra Nevada', 'Ale', 'Pale Ale', '5,6%', 38);
  
 INSERT INTO Beer (fabricante, familia, nome, graduacao, ibu) 
-VALUES (‘Guinness’, ‘Stout’, ‘Guinness Extra Stout’, ‘5,6%’, 47);
+VALUES ('Guinness', 'Stout', 'Guinness Extra Stout', '5,6%', 47);
  
 INSERT INTO Beer (fabricante, familia, nome, graduacao, ibu) 
-VALUES (‘Paulaner’, ‘Lager’, ‘Oktoberfest Bier’, ‘6%’, 24);
+VALUES ('Paulaner', 'Lager', 'Oktoberfest Bier', '6%', 24);
  
 INSERT INTO Beer (fabricante, familia, nome, graduacao, ibu) 
-VALUES (‘Leffe’, ‘Ale’, ‘Leffe Blonde’, ‘6,6%’, 25);
+VALUES ('Leffe', 'Ale', 'Leffe Blonde', '6,6%', 25);
  
 INSERT INTO Beer (fabricante, familia, nome, graduacao, ibu) 
-VALUES (‘Duvel’, ‘Ale’, ‘Duvel’, ‘8,5%’, 33);
+VALUES ('Duvel', 'Ale', 'Duvel', '8,5%', 33);
  
 INSERT INTO Beer (fabricante, familia, nome, graduacao, ibu) 
-VALUES (‘Weihenstephaner’, ‘Lager’, ‘Hefe Weissbier’, ‘5,4%’, 14);
+VALUES ('Weihenstephaner', 'Lager', 'Hefe Weissbier', '5,4%', 14);
  
 INSERT INTO Beer (fabricante, familia, nome, graduacao, ibu) 
-VALUES (‘Rochefort’, ‘Ale’, ‘Rochefort 10’, ‘11,3%’, 27);
+VALUES ('Rochefort', 'Ale', 'Rochefort 10', '11,3%', 27);
  
 INSERT INTO Beer (fabricante, familia, nome, graduacao, ibu) 
-VALUES (‘Sapporo’, ‘Lager’, ‘Sapporo Premium Beer’, ‘4,9%’, 18);
+VALUES ('Sapporo', 'Lager', 'Sapporo Premium Beer', '4,9%', 18);
  
 INSERT INTO Beer (fabricante, familia, nome, graduacao, ibu) 
-VALUES (‘New Belgium’, ‘Ale’, ‘Fat Tire Amber Ale’, ‘5,2%’, 22);
+VALUES ('New Belgium', 'Ale', 'Fat Tire Amber Ale', '5,2%', 22);
  
 INSERT INTO Beer (fabricante, familia, nome, graduacao, ibu) 
-VALUES (‘Stone’, ‘Ale’, ‘Arrogant Bastard Ale’, ‘7,2%’, 100);
+VALUES ('Stone', 'Ale', 'Arrogant Bastard Ale', '7,2%', 100);
  
 INSERT INTO Beer (fabricante, familia, nome, graduacao, ibu) 
-VALUES (‘Lagunitas’, ‘Ale’, ‘IPA’, ‘6,2%’, 51);
+VALUES ('Lagunitas', 'Ale', 'IPA', '6,2%', 51);
  
 INSERT INTO Beer (fabricante, familia, nome, graduacao, ibu) 
-VALUES (‘Erdinger’, ‘Lager’, ‘Weissbier’, ‘5,3%’, 13);
+VALUES ('Erdinger', 'Lager', 'Weissbier', '5,3%', 13);
