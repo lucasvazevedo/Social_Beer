@@ -18,8 +18,14 @@ public class Comentario {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+
+	@JsonInclude(Include.NON_NULL)
 	private String texto;
+
+	@JsonInclude(Include.NON_NULL)
 	private String usuario;
+
+	@JsonInclude(Include.NON_NULL)
 	private Date data;
 	
 	@ManyToOne (fetch = FetchType.LAZY)

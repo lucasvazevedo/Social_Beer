@@ -46,4 +46,14 @@ public class BeerResources {
 		beer.setId(id);
 		beerRepository.save(beer);
 	}
+
+	@RequestMapping(value = "/{id}/comentarios",method = RequestMethod.POST)
+	public void adicionarComentario(@PathVariable ("id")Long beerId,@RequestBody Comentario comentario)
+	{
+		Beer beer = new Beer();
+		beer.setId(beerId);
+		comentario.setLivro(beer);
+		comentariosRepository.save(comentario);
+		
+	}
 }
